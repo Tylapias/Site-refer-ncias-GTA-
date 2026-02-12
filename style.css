@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+
+    background:
+        url("davy-jones.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid #00ff88;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00ff88;
+}
+
+header p {
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+
+.ranking {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+.item {
+    background-color: rgba(20, 20, 20, 0.9);
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    border: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+
+.item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+}
+
+
+.item h2 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.item p {
+    margin-bottom: 15px;
+    color: #dddddd;
+}
+
+.item img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #00ff88;
+    margin-top: 40px;
+    color: #cccccc;
+}
